@@ -1,0 +1,61 @@
+{
+"SKW*F": "{PLOVER:mouse_click:,2}",
+"SKW-F": "{PLOVER:mouse_click}",
+"SKW-L": "{PLOVER:mouse_click:right}",
+
+"SKWUR": "{PLOVER:mouse_move:-1,0}",
+"SKWUP": "{PLOVER:mouse_move:0,-1}",
+"SKWUB": "{PLOVER:mouse_move:0,1}",
+"SKWUG": "{PLOVER:mouse_move:1,0}",
+"SKWURP": "{PLOVER:mouse_move:-1,-1}",
+"SKWURB": "{PLOVER:mouse_move:-1,1}",
+"SKWUPG": "{PLOVER:mouse_move:1,-1}",
+"SKWUBG": "{PLOVER:mouse_move:1,1}",
+
+"SKW-R": "{PLOVER:mouse_move:-1%,0}",
+"SKW-P": "{PLOVER:mouse_move:0,-1%}",
+"SKW-B": "{PLOVER:mouse_move:0,1%}",
+"SKW-G": "{PLOVER:mouse_move:1%,0}",
+"SKW-RP": "{PLOVER:mouse_move:-1%,-1%}",
+"SKW-RB": "{PLOVER:mouse_move:-1%,1%}",
+"SKW-PG": "{PLOVER:mouse_move:1%,-1%}",
+"SKW-BG": "{PLOVER:mouse_move:1%,1%}",
+
+"SKWER": "{PLOVER:mouse_move:-10%,0}",
+"SKWEP": "{PLOVER:mouse_move:0,-10%}",
+"SKWEB": "{PLOVER:mouse_move:0,10%}",
+"SKWEG": "{PLOVER:mouse_move:10%,0}",
+"SKWERP": "{PLOVER:mouse_move:-10%,-10%}",
+"SKWERB": "{PLOVER:mouse_move:-10%,10%}",
+"SKWEPG": "{PLOVER:mouse_move:10%,-10%}",
+"SKWEBG": "{PLOVER:mouse_move:10%,10%}",
+
+"SKWEUR": "{PLOVER:mouse_move:-25%,0}",
+"SKWEUP": "{PLOVER:mouse_move:0,-25%}",
+"SKWEUB": "{PLOVER:mouse_move:0,25%}",
+"SKWEUG": "{PLOVER:mouse_move:25%,0}",
+"SKWEURP": "{PLOVER:mouse_move:-25%,-25%}",
+"SKWEURB": "{PLOVER:mouse_move:-25%,25%}",
+"SKWEUPG": "{PLOVER:mouse_move:25%,-25%}",
+"SKWEUBG": "{PLOVER:mouse_move:25%,25%}",
+
+"SKW-PBG": "{PLOVER:mouse_scroll:-2,0}",
+"SKW-RBG": "{PLOVER:mouse_scroll:0,-2}",
+"SKW-RPG": "{PLOVER:mouse_scroll:0,2}",
+"SKW-RPB": "{PLOVER:mouse_scroll:2,0}",
+
+"SKWEPBG": "{PLOVER:mouse_scroll:-5,0}",
+"SKWERBG": "{PLOVER:mouse_scroll:0,-5}",
+"SKWERPG": "{PLOVER:mouse_scroll:0,5}",
+"SKWERPB": "{PLOVER:mouse_scroll:5,0}",
+
+"SKWEUPBG": "{PLOVER:mouse_scroll:-10,0}",
+"SKWEURBG": "{PLOVER:mouse_scroll:0,-10}",
+"SKWEURPG": "{PLOVER:mouse_scroll:0,10}",
+"SKWEURPB": "{PLOVER:mouse_scroll:10,0}",
+
+"SKWUPBG": "{PLOVER:mouse_scroll:-1,0}",
+"SKWURBG": "{PLOVER:mouse_scroll:0,-1}",
+"SKWURPG": "{PLOVER:mouse_scroll:0,1}",
+"SKWURPB": "{PLOVER:mouse_scroll:1,0}"
+}
