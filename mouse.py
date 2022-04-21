@@ -1,5 +1,9 @@
 import pyautogui as pyag
 
+# Global settings for mouse delay and easing function (tween)
+mouse_move_delay_seconds = 0.150
+mouse_move_tween_function = pyag.easeInQuad
+
 def pargs(arg, defaults):  # process arguments, use default argument and format correctly
     args = arg.split(",")
     args = (args + len(defaults) * [''])[:len(defaults)]  # pad args to same length as defaults
@@ -25,7 +29,7 @@ def move(steno, args):  # move relative to the current position
         (_, ys) = pyag.size()
         y = ys * (int(y[:-1]) / 100)
 
-    pyag.move(int(x), int(y))
+    pyag.move(int(x), int(y), mouse_move_delay_seconds, tween=mouse_move_tween_function)
 
 def set(steno, args):  # set mouse to exact position 
     (x, y) = pargs(args, ('50%', '50%'))  # default to middle of screen 
@@ -37,7 +41,7 @@ def set(steno, args):  # set mouse to exact position
         (_, ys) = pyag.size()
         y = ys * (int(y[:-1]) / 100)
 
-    pyag.moveTo(int(x), int(y))
+    pyag.moveTo(int(x), int(y), mouse_move_delay_seconds, tween=mouse_move_tween_function)
 
 def scroll(steno, args):  # scroll the mouse wheel in any cardinal direction
     (y, x) = pargs(args, (0, 0))  # default to no movement
